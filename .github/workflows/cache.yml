@@ -1,23 +1,27 @@
-name: Cache CI
+name: Combined Workflow
 
 on:
   push:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
-  cache-job:
+  build:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-      - name: cache-b88b72c
-        id: cache-step
+      # Email step
+      - name: 23f2002963@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
+
+      # Cache step
+      - name: Prime cache
         uses: actions/cache@v4
         with:
-          path: ~/.cache
+          path: node_modules
           key: cache-b88b72c
-
       - name: prime-cache-b88b72c
-        run: |
-            echo "Cache hit: ${{ steps.cache-step.outputs.cache-hit }}"
+        run: echo "Cache primed or hit/miss result"
