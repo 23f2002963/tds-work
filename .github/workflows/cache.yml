@@ -11,11 +11,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Restore cache
+      - name: cache-b88b72c
         id: cache-step
         uses: actions/cache@v4
         with:
-          path: ~/.npm
+          path: ~/.cache
           key: cache-b88b72c
 
       - name: prime-cache-b88b72c
