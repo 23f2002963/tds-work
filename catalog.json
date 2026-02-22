@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "email": "23f2002963@ds.study.iitm.ac.in",
+    "version": "6fcf12fd"
+  },
+  "products": [
+    { "id": 1, "name": "Smartphone X1", "category": "electronics", "price": 24999.99, "stock": 5, "rating": 4.5 },
+    { "id": 2, "name": "Laptop Pro 14", "category": "electronics", "price": 79999.50, "stock": 2, "rating": 4.7 },
+    { "id": 3, "name": "Wireless Earbuds", "category": "electronics", "price": 4999.75, "stock": 10, "rating": 4.3 },
+    { "id": 4, "name": "Bluetooth Speaker", "category": "electronics", "price": 6999.80, "stock": 4, "rating": 4.4 },
+
+    { "id": 5, "name": "Running Shoes", "category": "fashion", "price": 2999.00, "stock": 12, "rating": 4.2 },
+    { "id": 6, "name": "Leather Jacket", "category": "fashion", "price": 5999.00, "stock": 6, "rating": 4.6 },
+    { "id": 7, "name": "Denim Jeans", "category": "fashion", "price": 1999.00, "stock": 15, "rating": 4.1 },
+    { "id": 8, "name": "Cotton T-Shirt", "category": "fashion", "price": 799.00, "stock": 20, "rating": 4.0 },
+
+    { "id": 9, "name": "Office Chair", "category": "furniture", "price": 8999.00, "stock": 3, "rating": 4.5 },
+    { "id": 10, "name": "Wooden Desk", "category": "furniture", "price": 12999.00, "stock": 2, "rating": 4.6 },
+    { "id": 11, "name": "Bookshelf", "category": "furniture", "price": 4999.00, "stock": 5, "rating": 4.3 },
+    { "id": 12, "name": "Bedside Table", "category": "furniture", "price": 2999.00, "stock": 7, "rating": 4.2 },
+
+    { "id": 13, "name": "Cookware Set", "category": "home", "price": 3499.00, "stock": 8, "rating": 4.4 },
+    { "id": 14, "name": "Vacuum Cleaner", "category": "home", "price": 6999.00, "stock": 4, "rating": 4.5 },
+    { "id": 15, "name": "Water Purifier", "category": "home", "price": 11999.00, "stock": 3, "rating": 4.6 },
+    { "id": 16, "name": "Ceiling Fan", "category": "home", "price": 2499.00, "stock": 10, "rating": 4.1 },
+
+    { "id": 17, "name": "Cricket Bat", "category": "sports", "price": 1499.00, "stock": 9, "rating": 4.3 },
+    { "id": 18, "name": "Football", "category": "sports", "price": 899.00, "stock": 14, "rating": 4.2 },
+    { "id": 19, "name": "Yoga Mat", "category": "sports", "price": 799.00, "stock": 18, "rating": 4.4 },
+    { "id": 20, "name": "Dumbbell Set", "category": "sports", "price": 2999.00, "stock": 6, "rating": 4.5 },
+
+    { "id": 21, "name": "Novel Collection", "category": "books", "price": 1999.00, "stock": 11, "rating": 4.7 },
+    { "id": 22, "name": "Science Encyclopedia", "category": "books", "price": 2499.00, "stock": 5, "rating": 4.6 },
+    { "id": 23, "name": "Self Help Guide", "category": "books", "price": 999.00, "stock": 13, "rating": 4.2 },
+    { "id": 24, "name": "Programming in Python", "category": "books", "price": 2999.00, "stock": 4, "rating": 4.8 }
+  ],
+  "aggregations": {
+    "electronics": {
+      "count": 4,
+      "inventoryValue": 144437.05
+    }
+  }
+}
